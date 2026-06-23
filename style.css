@@ -1,0 +1,277 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+}
+body{
+    background-color: black;
+}
+html{
+    scroll-behavior: smooth;
+}
+#About {
+  display: flex;             /* Yeh dono divs ko side-by-side (left/right) karega */
+  align-items: center;       /* Text aur image ko vertically center align karega */
+  justify-content: space-between; /* Dono ke beech me barabar space rakhega */
+  max-width: 1200px;         /* Section ki maximum width */
+           /* Section ko screen ke center me rakhne ke liye */
+  padding: 10px 20px 40px 20px;       /* Top/Bottom aur Left/Right padding */
+ 
+  margin: -150px auto 0 auto;               /* Text aur Image ke beech ka gap */
+}
+
+/* Left Side (Text) styling */
+.hero-msg {
+  flex: 1;  
+  margin-right: 80px;                 /* Yeh text ko available space ka 50% dega */
+}
+
+.three {
+  font-size: 1.2rem;
+  line-height: 1.8;          /* Lines ke beech me accha space dene ke liye */
+  color: #333;
+}
+
+/* Right Side (Image) styling */
+.Image {
+  flex: 1;                   /* Yeh image ko available space ka 50% dega */
+  display: flex;
+  justify-content: center;   /* Image ko apne container ke center me rakhega */
+}
+
+.Image img {
+  max-width: 100%;           /* Image container se baahar nahi jayegi */
+  height: auto;              /* Aspect ratio kharab nahi hoga */
+  border-radius: 10px;       /* Optional: Corners ko thoda round karne ke liye */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Optional: Halki si shadow professional look ke liye */
+}
+
+/* Responsive: Mobile phones ke liye */
+@media (max-width: 768px) {
+  #About {
+    flex-direction: column-reverse; /* Mobile me text upar aur photo neeche automatic ho jayegi */
+    text-align: center;             /* Text center align ho jayega */
+  }
+}
+/** header**/
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #7EA1C4;
+    color: #ffffff;
+    border-radius: 4px;
+    height:40px;
+    width:100%;
+    font-size: 20px;
+    font-weight: 200;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#btn{
+    height: 25px;
+    border: #7EA1C4;
+    font-weight: 200;
+    border-radius: 4px;
+    
+}
+#btn a{
+    color: black;
+}
+
+.nav-bar a:hover{
+    color: black;
+}
+.two{
+    display: flex;
+    border-color: #ffffff;
+    border-radius: 3px;
+    color: white;
+    margin-top: 70px;
+    margin-left: 40px;
+    font-size: 40px;
+}
+h1{
+    color: #ffffff;
+    margin-top: 40px;
+    margin-left: 60px;
+    font-size: 90px;
+}
+span{
+    color: #7EA1C4;
+    font-style: italic;
+    font-family: pacifico;
+    
+}
+.three{
+    color: rgba(160, 146, 146, 0.929);
+    font-weight: 200;
+    margin-top: 90px;
+    margin-left: 100px;
+
+}
+.sk{
+    margin-top: 80px;
+    margin-left: 60px;
+    color: whitesmoke;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+    
+
+.container {
+  width: 1000px; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+ 
+  margin-left: 2px; 
+  margin-bottom: 5px;
+ text-align: right;
+margin-right: 500px;
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+  font-weight: 700;
+  
+}
+
+.html {width: 900px; background-color: #516e8b;} 
+.css {width: 800px; background-color: #516e8b;} 
+.js {width: 650px; background-color:#516e8b;}
+
+.resume h3{
+     margin-top: 80px;
+    margin-left: 60px;
+    color: whitesmoke;
+    font-size: 40px;
+    margin-bottom: 20px;
+    
+}
+.resume p{
+    color: rgba(160, 146, 146, 0.929);
+    font-size: 20px;
+    margin-left: 70px;
+    margin-top: 20px;
+
+}
+.Download-btn{
+    background-color:#516e8b;
+    margin-left: 70px ;
+    margin-top: 30px;
+    height: 50px;
+    width: 300px;
+    border-radius: 4px;
+    border-color: black;
+    transition:all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(160, 146, 146, 0.929)
+}
+.Download-btn a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-family:Unbounded ;
+    font-size: 20px;
+}
+.Download-btn:hover{
+    transform:translateY(-5px) scale(1.05);
+}
+.Download-btn:active{
+    transform:translateY(-2px) scale(1.02)
+}
+.project{
+     margin-top: 80px;
+    margin-left: 15px;
+    color: whitesmoke;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.aes{
+    color:rgba(160, 146, 146, 0.929) ;
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-left: 80px;
+    
+}
+.aes sub{
+      font-family: Playwrite England Joined;
+}
+.aes sup{
+    font-family: Croissant One;
+    font-size:35px ;
+}
+.cards {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 50px 20px;
+}
+
+.box {
+  background:#516e8b;
+  border-radius: 15px;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.box:hover {
+  transform: translateY(-10px);
+}
+
+.c-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+.box h2 {
+  font-family: Josevka Charon;
+  font-weight: 500;
+  font-size: 35px;
+  margin: 10px 0;
+}
+
+.box a {
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.box a:hover {
+  background:rgba(90, 62, 62, 0.929) ;
+
+}
+
+.f1{
+color: #ffffff;
+font-weight: 300;
+margin-top: 30px;
+margin-left: 60px;
+font-size: 30px;
+}
+.content{
+    margin-top: 30px;
+}
+.copyr{
+     margin-top: 40px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+footer{
+    height:350px;
+}
