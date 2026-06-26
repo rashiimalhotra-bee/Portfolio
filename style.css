@@ -41,7 +41,7 @@ html{
 
 .Image img {
   max-width: 100%;           /* Image container se baahar nahi jayegi */
-  height: 50px;              /* Aspect ratio kharab nahi hoga */
+  height: 30px;              /* Aspect ratio kharab nahi hoga */
   border-radius: 10px;       /* Optional: Corners ko thoda round karne ke liye */
   box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Optional: Halki si shadow professional look ke liye */
 }
