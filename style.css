@@ -34,7 +34,7 @@ html{
 
 /* Right Side (Image) styling */
 .Image {
-  flex: 1;                   /* Yeh image ko available space ka 50% dega */
+                   /* Yeh image ko available space ka 50% dega */
   display: flex;
   justify-content: center;   /* Image ko apne container ke center me rakhega */
 }
