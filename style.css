@@ -34,16 +34,17 @@ html{
 
 /* Right Side (Image) styling */
 .Image {
-                   /* Yeh image ko available space ka 50% dega */
+      flex:1;             /* Yeh image ko available space ka 50% dega */
   display: flex;
   justify-content: center;   /* Image ko apne container ke center me rakhega */
 }
 
 .Image img {
-  max-width: 100%;           /* Image container se baahar nahi jayegi */
-  height: auto;              /* Aspect ratio kharab nahi hoga */
+  max-width: 80%;           /* Image container se baahar nahi jayegi */
+  height: 250px;              /* Aspect ratio kharab nahi hoga */
   border-radius: 40px;       /* Optional: Corners ko thoda round karne ke liye */
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Optional: Halki si shadow professional look ke liye */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    margin-top: 30px;/* Optional: Halki si shadow professional look ke liye */
 }
 
 /* Responsive: Mobile phones ke liye */
