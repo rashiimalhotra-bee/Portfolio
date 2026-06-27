@@ -28,8 +28,10 @@ html{
 
 .three {
   font-size: 1.2rem;
-  line-height: 1.8;          /* Lines ke beech me accha space dene ke liye */
+  line-height: 1.7;          /* Lines ke beech me accha space dene ke liye */
   color: #333;
+    font-family:Sansita Swashed;
+    
 }
 
 /* Right Side (Image) styling */
@@ -40,11 +42,12 @@ html{
 }
 
 .Image img {
-  max-width: 80%;           /* Image container se baahar nahi jayegi */
-  height: 250px;              /* Aspect ratio kharab nahi hoga */
+  max-width: 100%;           /* Image container se baahar nahi jayegi */
+  height: auto;              /* Aspect ratio kharab nahi hoga */
   border-radius: 40px;       /* Optional: Corners ko thoda round karne ke liye */
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     margin-top: 30px;/* Optional: Halki si shadow professional look ke liye */
+    margin-left:400px;
 }
 
 /* Responsive: Mobile phones ke liye */
@@ -112,6 +115,7 @@ span{
     font-weight: 200;
     margin-top: 90px;
     margin-left: 100px;
+    width:100%;
 
 }
 .sk{
